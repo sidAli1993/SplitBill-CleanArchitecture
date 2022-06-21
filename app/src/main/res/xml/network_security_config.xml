@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">deazitech.com</domain>
+        <domain includeSubdomains="true">transactions.test.onoconnect.io</domain>
+        <domain includeSubdomains="true">api.uat.onoconnect.com</domain>
+
+    </domain-config>
+</network-security-config>

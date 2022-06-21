@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainfrag">
+
+
+    <fragment
+        android:id="@+id/mainfrag"
+        android:name="com.poc.paphoscafe.ui.MainFragment"
+        android:label="Main Screen"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/define_splits"
+        android:name="com.poc.paphoscafe.ui.FragmentDefineSplits"
+        android:label="Define Splits"
+        tools:layout="@layout/fragment_define_splits" />
+
+    <fragment
+        android:id="@+id/fragment_each_split"
+        android:name="com.poc.paphoscafe.ui.FragmentEachSplit"
+        android:label="Each Split"
+        tools:layout="@layout/fragment_each_split" />
+
+    <fragment
+        android:id="@+id/fragment_review_split"
+        android:name="com.poc.paphoscafe.ui.FragmentReviewSplit"
+        android:label="Review"
+        tools:layout="@layout/fragment_review_split" />
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/aboutfrag"-->
+    <!--        android:name="com.middleware.poc.ui.AboutFragment"-->
+    <!--        android:label="About Screen"-->
+    <!--        app:enterAnim="@anim/slide_in_left"-->
+    <!--        app:exitAnim="@anim/slide_out_right"-->
+    <!--        app:popEnterAnim="@anim/slide_in_left"-->
+    <!--        app:popExitAnim="@anim/slide_out_right"-->
+    <!--        tools:layout="@layout/fragment_about" />-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragmentpay"-->
+    <!--        android:name="com.middleware.poc.ui.PayScreenNewFragment"-->
+    <!--        android:label="Payment Screen"-->
+    <!--        app:enterAnim="@anim/slide_in_left"-->
+    <!--        app:exitAnim="@anim/slide_out_right"-->
+    <!--        app:popEnterAnim="@anim/slide_in_left"-->
+    <!--        app:popExitAnim="@anim/slide_out_right"-->
+    <!--        tools:layout="@layout/fragment_pay_screen" />-->
+    <fragment
+        android:id="@+id/fragpaywithcash"
+        android:name="com.poc.paphoscafe.ui.FragmentPayCash"
+        tools:layout="@layout/fragment_pay_with_cash" />
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragpayperscreen"-->
+    <!--        android:name="com.middleware.poc.ui.PayPerScreen"-->
+    <!--        android:label="pay screen"-->
+    <!--        app:enterAnim="@anim/slide_in_left"-->
+    <!--        app:exitAnim="@anim/slide_out_right"-->
+    <!--        app:popEnterAnim="@anim/slide_in_left"-->
+    <!--        app:popExitAnim="@anim/slide_out_right"-->
+    <!--        tools:layout="@layout/fragment_pay_per_screen" />-->
+    <fragment
+        android:id="@+id/fragownamount"
+        android:name="com.poc.paphoscafe.ui.FragmentEnterAmount"
+        tools:layout="@layout/fragment_own_amount" />
+    <fragment
+        android:id="@+id/fragownnewamount"
+        android:name="com.poc.paphoscafe.ui.FragmentOwnAmount"
+        tools:layout="@layout/fragment_own_new_amount" />
+    <fragment
+        android:id="@+id/fragment_bill_split"
+        android:name="com.poc.paphoscafe.ui.BillSplitFragment"
+        android:label="Bill Split"
+        tools:layout="@layout/fragment_bill_split" />
+
+
+</navigation>

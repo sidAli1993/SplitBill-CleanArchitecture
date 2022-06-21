@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Paphos Cafe</string>
+
+    <string name="do_you_want_to_cancel">Do you want to cancel the transaction?</string>
+    <string name="device_name">Device name</string>
+
+    <string name="payment_request">You have a new payment request. Tap here to continue!</string>
+</resources>

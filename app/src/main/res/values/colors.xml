@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#3982CD</color>
+    <color name="purple_500">#0C66C2</color>
+    <color name="purple_700">#04509E</color>
+    <color name="teal_200">#FF8351</color>
+    <color name="teal_700">#F36E38</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="btn_pass_gray">#6C6C6C</color>
+    <color name="new_text_color">#000000</color>
+    <color name="emv_green">#00bb2b</color>
+    <color name="orange">#FF8C00</color>
+    <color name="headingColor">#000000</color>
+    <color name="red_cross_button">#da0a39</color>
+    <color name="cal_writing_area">#FCFCFC</color>
+    <color name="cal_top_button">#F5F5F5</color>
+    <color name="cal_blue_color">#007DFE</color>
+    <color name="green">#50AB5E</color>
+    <color name="yellow">#feb353</color>
+    <color name="green_button">#3C8930</color>
+    <color name="colorTop">#02AE40</color>
+    <color name="silver">#DCDCDC</color>
+
+
+</resources>
